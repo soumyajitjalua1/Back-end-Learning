@@ -1,0 +1,17 @@
+{
+  "name": "backend-learning",
+  "version": "1.0.0",
+  "description": "Here my total backen learning is abalable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "node",
+    "react",
+    "backend"
+  ],
+  "author": "Soumyajit Jalua",
+  "license": "ISC"
+}
