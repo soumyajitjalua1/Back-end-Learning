@@ -2,10 +2,12 @@
   "name": "backend-learning",
   "version": "1.0.0",
   "description": "Here my total backen learning is abalable",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
+
   "keywords": [
     "Javascript",
     "node",
@@ -13,5 +15,13 @@
     "backend"
   ],
   "author": "Soumyajit Jalua",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
 }
