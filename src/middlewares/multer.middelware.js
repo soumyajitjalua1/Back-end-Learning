@@ -1,6 +1,5 @@
-import multer from multer;
-
-const storeage = multer.diskstorage({
+import multer from 'multer';
+const storage = multer.diskStorage({
     destination: function(req, file, cb) {
         cb(null, "./Public/temp");
     },
@@ -8,4 +7,5 @@ const storeage = multer.diskstorage({
         cb(null, file.originalname);
     }
 });
+
 export const upload = multer({ storage: storage });

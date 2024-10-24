@@ -1,1 +1,1 @@
-export const DB_NAME ="LearningDB"
+export const DB_NAME ="sample_mflix"
